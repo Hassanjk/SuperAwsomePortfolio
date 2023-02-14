@@ -201,5 +201,10 @@
         backDelay: 2000
       });
     }
+    // this will be for clearing up the form
+    on('click', '.clear_btn', function(e) {
+      alert("worked")
+      document.getElementById("myForm").reset();
+    }, true);
   
   })()
