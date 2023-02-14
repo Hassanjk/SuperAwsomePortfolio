@@ -194,3 +194,8 @@
 .portfolio-details .portfolio-description p {
   padding: 0;
 }
+.donation_hover:hover{
+  text-decoration: none;
+color: #ffeb00!important;
+transition: color 0.3s ease; /* add transition effect */
+}
