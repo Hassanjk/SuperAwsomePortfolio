@@ -203,7 +203,7 @@
     }
     // this will be for clearing up the form
     on('click', '.clear_btn', function(e) {
-      alert("worked")
+      // just deleted stuff here
       document.getElementById("myForm").reset();
     }, true);
   
